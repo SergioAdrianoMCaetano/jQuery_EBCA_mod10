@@ -18,20 +18,24 @@ html{
 }
 
 header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header, footer{
     background-color: #527271;
     padding-top: 16px;
     color: #FFD483;
-    
 }
 
-header > .container{
+header > .container,
+footer > .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 16px;
-
-    
-    
 }
 
 
@@ -60,6 +64,14 @@ nav li a{
 
 }
 
+h1, h2, h3, p{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    border: solid 1.5px;
+    border-color: #068545;
+}
 
 .menu-hamburguer{
     width: 32px;
@@ -77,9 +89,16 @@ nav li a{
     display: flex;
 }
 
+
 #sobre-a-loja img {
     max-width: 400px;
     margin-right: 24px;
+}
+
+#sobre-a-loja p{
+    padding: 6px;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 section{
@@ -97,12 +116,21 @@ section h2{
 
 .lista-servicos{
     flex-wrap: wrap;
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px;
+    
 }
 
 .lista-servicos li{
     list-style: none;
     max-width: 25%;
     margin-bottom: 24px;
+}
+
+
+.lista-servicos li strong{
+    margin-top: 16px 0;
 }
 
 .lista-servicos li img{
@@ -113,7 +141,7 @@ section h2{
     margin: 16px 0;
 }
 
-.lista-servicos li button{
+button{
     display: block;
     width: 100%;
     padding: 8px 0;
@@ -137,8 +165,45 @@ section h2{
 }
 
 .price del{
-    color: azure;
+    color: #527271;
     font-size: 14px;
+}
+
+.form-campo{
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+    color: #FFD483;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 4px;
+}
+
+.form-campo input{
+    padding: 8px;
+    width: 100%;
+    display: block;
+    border: solid 1.5px;
+    border-color: #068545;
+}
+
+form{
+    max-width: 360px;
+}
+
+form button{
+    max-width: 120px;
+}
+
+footer li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img{
+    height: 32px;
 }
 
 
