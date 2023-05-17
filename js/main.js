@@ -57,4 +57,8 @@ $(document).ready(function() {
             scrollTop: destino.offset().top
         }, 1000)
     });
+
+    $('#enviar').click(function(){
+        alert('Formulário enviado')
+    })
 })
