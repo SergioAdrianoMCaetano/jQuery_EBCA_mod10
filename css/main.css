@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'Roboto';
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 20rem; /*Medida que obteve (aqui) o mesmo posivionamento que o exemplo dado no módulo*/
+    
+    
+}
+
+header{
+    background-color: #527271;
+    padding-top: 16px;
+    color: #FFD483;
+    
+}
+
+header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+
+    
+    
+}
+
+
+
+body{
+    background-color: #A5A5A5;
+}
+
+nav {
+    background-color: #65AE89;
+    padding: 16px 0;
+}
+
+nav li{
+    list-style: none;
+    padding: 18px;
+    display: inline;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a{
+    color: #324B4A;
+    text-decoration: none;
+
+}
+
+
+.menu-hamburguer{
+    width: 32px;
+}
+
+.menu-hamburguer span{
+    height: 2px;
+    width: 100%;
+    background-color:#324B4A;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex{
+    display: flex;
+}
+
+#sobre-a-loja img {
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section{
+    padding: 48px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section h2{
+    color: #FFD483;
+    
+}
+
+.lista-servicos{
+    flex-wrap: wrap;
+}
+
+.lista-servicos li{
+    list-style: none;
+    max-width: 25%;
+    margin-bottom: 24px;
+}
+
+.lista-servicos li img{
+    max-width: 100%;
+}
+
+.lista-servicos li h3{
+    margin: 16px 0;
+}
+
+.lista-servicos li button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #FFD483;
+    color: #068545;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 6px;
+}
+
+
+.item-central{
+    margin: 0 5%;
+}
+
+.price{
+    margin: 16px 0;
+    display: block;
+}
+
+.price del{
+    color: azure;
+    font-size: 14px;
+}
+
+
+
