@@ -73,6 +73,7 @@ img{
     border-color: #068545;
 }
 
+
 .menu-hamburguer{
     width: 32px;
 }
@@ -128,9 +129,16 @@ section h2{
     margin-bottom: 24px;
 }
 
+.lista-servicos li p {
+    padding: 14px;
+}
 
 .lista-servicos li strong{
-    margin-top: 16px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.lista-servicos li button{
+    margin: 16px 0;
 }
 
 .lista-servicos li img{
@@ -157,6 +165,7 @@ button{
 
 .item-central{
     margin: 0 5%;
+    
 }
 
 .price{
